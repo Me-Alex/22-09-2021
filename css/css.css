@@ -161,3 +161,63 @@ hr {
     animation-direction:alternate;
 
 }
+.tips{
+    display: none;
+    flex-direction:column;
+
+}
+.button {
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid crimson;
+    transition: color .5s;
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: crimson;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+.button:hover:before {
+    top: -30px;
+    left: -30px;
+}
+.download {
+    border: 1px solid var(--button-border-color);
+    color: var(--button-color-text) !important;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 4px;
+    text-align: center;
+}
+
+.download:hover {
+    /* background-color:var(--button-color-bg-hover); */
+    border: 1px solid var(--button-border-color-hover);
+    color: var(--button-color-text-hover) !important;
+    transition: all 0.4s ease-in;
+}
+.download-button{
+    display:none;
+}

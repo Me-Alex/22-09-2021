@@ -2,4 +2,10 @@
     --text-color:rgb(255, 255, 255);
     --navigation-text-color:black;
     --title-color:rgb(0, 0, 0);
+    --button-color-text: rgb(0, 0, 0);
+    --button-color-text-hover: rgb(46, 180, 12);
+    --button-border-color: rgb(50, 17, 170);
+    --button-border-color-hover: rgb(0, 0, 0);
+    --button-color-bg: rgb(133, 58, 58);
+    --button-color-bg-hover: rgb(139, 35, 35);
 }
