@@ -15,7 +15,7 @@ menu.onfocus = () => {
     navigation.style.margin = "230px -200px 0 0";
     navigation.style.justifyContent = "flex-end";
     navigation.style.alignItems = "center";
-    navigation.style.backgroundColor = "gray";
+    navigation.style.backgroundColor = "white";
     navigation.style.borderRadius = "20px";
     navigation.style.padding = "20px";
     navigation.style.gap = "2px";

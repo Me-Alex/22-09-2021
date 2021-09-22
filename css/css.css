@@ -79,6 +79,7 @@ hr {
     flex-direction: row;
     gap: 5%;
     z-index: 400;
+    border:solid 1px black;
 }
 
 .presentation-text {
@@ -205,6 +206,12 @@ hr {
     top: -30px;
     left: -30px;
 }
+.download-button{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
 .download {
     border: 1px solid var(--button-border-color);
     color: var(--button-color-text) !important;
@@ -223,4 +230,40 @@ hr {
 }
 .download-button{
     display:none;
+}
+.papers-content {
+    position: relative;
+    height: max-content;
+    padding-top:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.papers {
+    /* overflow: scroll; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 78%;
+    display: flex;
+    justify-content:justify ;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+}
+
+.papers p {
+    font-size: auto;
+    color: black!important;
+}
+.papers h1 {
+    font-size: 25px;
+    text-decoration:underline 1px;
+    background-color:yellow;
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(30, 9, 65) !important;
 }
