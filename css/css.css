@@ -98,6 +98,9 @@ hr {
     justify-content: center;
     align-items: center;
 }
+.text span{
+    color:green;
+}
 /* .text h1{
     animation-name:rotate-color;
     animation-duration:2s;
