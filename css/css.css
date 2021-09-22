@@ -79,7 +79,6 @@ hr {
     flex-direction: row;
     gap: 5%;
     z-index: 400;
-    border:solid 1px black;
 }
 
 .presentation-text {

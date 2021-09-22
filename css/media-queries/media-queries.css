@@ -1,25 +1,24 @@
 @media only screen and (max-width:950px) {
-   .header nav {
+    .header nav {
         display: none;
-        margin:230px -126px 0 0 !important ;
-
+        margin: 230px -126px 0 0 !important;
+        border: solid 1px black;
     }
-    .menu{
-        cursor:default;
+    .menu {
+        cursor: default;
         display: flex;
     }
-    .text h1{
-        font-size:20px;
+    .text h1 {
+        font-size: 20px;
     }
-
 }
+
 @media only screen and (min-width:951px) {
     .header nav {
-         display: flex !important;
-         position: relative;
-     }
-     .menu{
-         display: none;
-     }
- 
- }
+        display: flex !important;
+        position: relative;
+    }
+    .menu {
+        display: none;
+    }
+}

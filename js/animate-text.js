@@ -17,13 +17,3 @@ var typed = new Typed(".tipeHere", {
     backSpeed: 30,
     loop: false,
 });
-// var typed = new Typed(".animate", {
-//     strings: [
-//         "R<span>e</span>a<span>d</span>y to pl<span>a</span>y ?",
-//         "Just answer with 'yes' or 'no' ",
-//     ],
-//     typeSpeed: 50,
-//     backDelay: 3000,
-//     backSpeed: 40,
-//     loop: true,
-// });
