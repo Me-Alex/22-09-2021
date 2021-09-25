@@ -41,19 +41,35 @@ let tips = document.querySelector(".tips");
 yes.onclick = () => {
     downlaodButton.style.display = "inherit";
     text.style.display = "none";
+    $('.animate').textillate();
+  
 }
 no.onclick = () => {
     downlaodButton.style.display = "none";
     text.style.display = "none";
     tips.style.display = "flex";
-}
-yes1.onclick = () => {
-    downlaodButton.style.display = "inherit";
-    text.style.display = "none";
-    tips.style.display = "none";
+    $('.animate').textillate();
 
 }
-no1.onclick = () => {
-    downlaodButton.style.display = "none";
-    text.style.display = "none";
+if(yes1){
+    yes1.onclick = () => {
+        downlaodButton.style.display = "inherit";
+        text.style.display = "none";
+        tips.style.display = "none";
+        $('.animate').textillate();
+    
+    
+    }
 }
+
+if(no1){
+    no1.onclick = () => {
+        downlaodButton.style.display = "none";
+        text.style.display = "none";
+        $('.animate').textillate();
+     
+    }
+}
+// let removeAnnoyingCursor=document.querySelector(".typed-cursor");
+// console.log(removeAnnoyingCursor);
+// removeAnnoyingCursor.innerHTML=" ";
