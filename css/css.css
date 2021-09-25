@@ -281,6 +281,7 @@ hr {
     align-items: center;
     text-align: center;
     padding: 20px;
+    z-index:-100;
 }
 
 .papers {
