@@ -19,7 +19,7 @@ menu.onfocus = () => {
     navigation.style.borderRadius = "20px";
     navigation.style.padding = "20px";
     navigation.style.gap = "2px";
-    forMenu.style.zIndex = "300";
+    forMenu.style.zIndex = "0";
     // navigation.style.zIndex = "-200";
 
 }
