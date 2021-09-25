@@ -3,6 +3,7 @@
         display: none;
         margin: 230px -126px 0 0 !important;
         border: solid 1px black;
+        z-index: 300 !important;
     }
     .menu {
         cursor: default;
@@ -16,7 +17,9 @@
 @media only screen and (min-width:951px) {
     .header nav {
         display: flex !important;
-        position: relative;
+        position: ;
+        z-index: 300 !important;
+
     }
     .menu {
         display: none;

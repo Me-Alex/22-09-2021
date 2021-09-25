@@ -49,7 +49,7 @@ hr {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    z-index: -100 !important;
+    z-index: -00;
 }
 
 .container {
@@ -59,9 +59,11 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
+    z-index: -1 !important;
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: inherit;
 }
 
 .header {
@@ -79,7 +81,6 @@ hr {
     justify-content: center;
     flex-direction: row;
     gap: 5%;
-    z-index: 800;
 }
 
 .presentation-text {
@@ -87,13 +88,13 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    position: relative;
+    /* position: relative; */
     width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    z-index: -1;
+    /* z-index: -1; */
     align-items: center;
     /* border-right:solid 1px black; */
     border-left: solid 1px black;
@@ -281,7 +282,6 @@ hr {
     align-items: center;
     text-align: center;
     padding: 20px;
-    z-index:-100;
 }
 
 .papers {
@@ -342,7 +342,7 @@ justify-content: center;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     opacity: 0;
-    z-index: 0;
+    /* z-index: 0; */
     animation: imageAnimation 30s linear infinite 0s;
 }
 .slideshow div span  p{
