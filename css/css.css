@@ -93,6 +93,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    z-index: 5;
     align-items: center;
     /* border-right:solid 1px black; */
     border-left: solid 1px black;
