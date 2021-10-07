@@ -22,3 +22,32 @@
         display: none;
     }
 }
+@media screen and (max-width:760px){
+    .showimg{
+        padding: 0;
+        flex-direction: column;
+    }
+    .showimg img{
+        /* display: none; */
+    }
+    .right-side{
+        width: auto;
+        height: auto;
+        /* text-align: center; */
+        padding: 0px 0 0 40px;
+    }
+    .right-side h1{
+        text-align: center;
+        font-weight: 10;
+    }
+    .right-side p{
+        text-align: left;
+        font-size: 13px;
+    }
+    .site-footer {
+       text-align: justify;
+    }
+    .site-footer h6{
+        text-align: center;
+     }
+}
