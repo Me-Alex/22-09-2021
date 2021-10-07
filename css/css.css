@@ -54,9 +54,7 @@ p {
 }
 
 .container {
-    background: rgb(157, 157, 166);
-    background: linear-gradient(0deg, rgba(157, 157, 166, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%);
-    height: ;
+   height: 100vh;
     max-height: ;
     width: 100vw;
     /* background-image: url("../img/fire-hd_3000x2250_h.jpg") ; */
@@ -534,13 +532,13 @@ p {
 
 .footer-text-heading {
     text-align: left;
-    color: rgb(38, 123, 138);
+    color: rgb(35, 133, 15);
     padding-top: 16px;
 }
 
 .footer-text-paragraph {
     text-align: left;
-    color: rgb(255, 132, 138) !important;
+    color: rgb(255, 255, 255) !important;
     font-size: 14px;
     overflow: hidden;
     text-overflow: ellipsis;
